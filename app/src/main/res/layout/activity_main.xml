@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnAlpha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="xuLiAnimation"
+        android:text="Alpha Animation" />
+
+    <Button
+        android:id="@+id/btnScale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="xuLiScaleAnimation"
+        android:text="Scale Animation" />
+
+    <Button
+        android:id="@+id/btnTranslate"
+        android:onClick="xuLiTranslate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Translate Animation" />
+
+    <Button
+        android:onClick="xuLiRotate"
+        android:id="@+id/btnRotate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rotate" />
+
+    <Button
+        android:onClick="xuLiTongHop"
+        android:id="@+id/btnTongHop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tong Hop" />
+
+    <Button
+        android:id="@+id/btnThoat"
+        android:onClick="xuLiThoat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Exit" />
+
+
+</LinearLayout>
